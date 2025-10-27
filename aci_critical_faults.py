@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 """
-Written by Klaus Mucelli
+Written by Klaus Mucelli | klausmucelli15@gmail.com
 This script will query the APIC for Faults and output
 them to the Terminal, sorted by fault code. It requires
 a separate credentials.py file to access the APIC.
@@ -42,3 +42,4 @@ for code, descr in critical_faults:
 print("*********************************")
 print(f"{fault_count['total']} Faults were found.")
 print(f"{fault_count['critical']} listed above are critical")
+
