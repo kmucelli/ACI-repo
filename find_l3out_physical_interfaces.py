@@ -1,3 +1,5 @@
+# A simple script that accepts a JSON snapshot of an ACI fabric as a main source file to find interfaces in use by L3Outs in an ACI fabric.
+
 import json
 import os
 
@@ -48,3 +50,4 @@ output_list.sort()
 
 for output in output_list:
     print(output)
+
