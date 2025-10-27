@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """
+Written by Klaus Mucelli | klausmucelli15@gmail.com
 This application replicates the switch CLI command 'show interface'
 It largely uses raw queries to the APIC API
 """
@@ -903,3 +904,4 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         pass
+
