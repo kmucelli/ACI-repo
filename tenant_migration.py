@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
+Written by Klaus Mucelli | klausmucelli15@gmail.com
 ACI Tenant Migration Script
 Collects tenant configurations from source ACI fabric and pushes to destination ACI fabric
-Author: Klaus
-Date: 2026-02-18
 """
 
 import requests
