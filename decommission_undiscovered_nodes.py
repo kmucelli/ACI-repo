@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+Written by Klaus Mucelli | klausmucelli15@gmail.com
 Simple script to find and decommission all undiscovered nodes in ACI
 """
 
@@ -12,9 +13,9 @@ import time
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Configuration
-APIC_URL = "https://10.4.8.128"
-USERNAME = "admin"
-PASSWORD = "C1scoSVSBA123!"
+APIC_URL = "https://X.X.X.X"
+USERNAME = "xxxxx"
+PASSWORD = "xxxxx"
 
 def login_to_apic():
     """Login to APIC and return session with token"""
